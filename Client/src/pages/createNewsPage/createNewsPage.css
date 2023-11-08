@@ -1,0 +1,121 @@
+
+  .containerCN{
+    background-color: aquamarine;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 10% 10% 80%;
+    grid-template-areas:  "header"
+                          "title"
+                          "formg";
+  }
+  
+  .headerCN{
+    background-color: #D53143;
+    grid-area: header;
+  }
+
+  .titleCN{
+    background-color: #ffffff;
+    grid-area: title;
+  }
+
+  .formikform{
+    grid-area: formg;
+    background-color: yellow;
+  }
+
+  .formnews{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: 30% 50% 20%;
+    grid-template-areas:"iname itype ifile"
+                        "itarea itarea itarea"
+                        "btn btn btn";
+  position: relative;
+  }
+
+  .inputnameCN{
+    background-color: #ffffff;
+    grid-area: iname;
+    text-align: center;
+  }
+
+  .inputnameCN input{
+    width: 80%;
+    height: 30%;
+    text-align: center;
+    font-size:x-large;
+  }
+
+  .itypeCN{
+    background-color: #ffffff;
+    grid-area: itype;
+    text-align: center;
+  }
+
+  .itypeCN label{
+   font-size: x-large;
+  }
+
+  .itypeCN select{
+    width: 50%;
+    height: 30%;
+    text-align: center;
+    font-size: x-large;
+    border-radius: 10px;
+    background-color: #D53143;
+    color: #ffffff;
+  }
+
+  .inpfileCN{
+    background-color: #ffffff;
+    grid-area: ifile;
+    text-align: center;
+  }
+
+  .inpfileCN input{
+    height: 30%;
+    width: 80%;
+    font-size:larger;
+  }
+
+  .inpfileCN label{
+    font-size:x-large;
+  }
+
+  .inpfileCN input::-webkit-file-upload-button{
+    border-radius: 10px;
+    width: 30%;
+    height: 60%;
+    background-color: #D53143;
+    color: #ffffff;
+  }
+
+  .itxtareaCN{
+    background-color: #ffffff;
+    grid-area: itarea;
+    text-align: center;
+  }
+
+  .itxtareaCN textarea{
+    font-size: x-large;
+  }
+
+  .ibtnCN{
+    background-color: #ffffff;
+    grid-area: btn;
+    text-align: center;
+  }
+
+  .ibtnCN button{
+    background-color: #D53143;
+    border-radius: 10px;
+    color: #ffffff;
+    height: 30%;
+    width: 10%;
+    font-size: x-large;
+  }
+  

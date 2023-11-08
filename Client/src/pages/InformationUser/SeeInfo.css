@@ -1,0 +1,206 @@
+.containerSee{
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 15%;
+  grid-template-areas:  "header header"
+                        "bodyT bodyT"
+                        "bodyM bodyM"
+                        "footer footer";
+}
+
+
+.nav{
+  grid-area: header;
+  background-color: #D53143;
+  color: white;
+  font-size: 5vmin;
+}
+
+.top{
+  grid-area: bodyT;
+}
+
+.medium{
+  grid-area: bodyM;
+  height: 40vh;
+  width: 100vw;
+  display: grid;  
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 40% 40%;
+  grid-template-areas:  "topL topR"
+                        "mediumL mediumR"
+                        "bottomL bottomR";
+  font-size: 5vmin;
+}
+
+.bottom{
+  grid-area: footer;
+  font-size: 5vmin;
+}
+
+.leftTop{
+  grid-area: topL;
+}
+
+.leftMedium{
+  grid-area: mediumL;
+}
+
+.leftBottom{
+ grid-area: bottomL;
+}
+
+.informationPos{
+  padding-left: 15%;
+}
+
+.rightTop{
+  grid-area: topR;
+}
+
+.rightMedium{
+  grid-area: mediumR;
+}
+
+.rightBottom{
+  grid-area: bottomR;
+}
+
+.general{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+  grid-auto-rows: minmax(100%, auto);
+}
+
+.imageSee{
+  float: left;
+  margin-top: 3%;
+  margin-bottom: 2%;
+  margin-left: 15%;
+  height: 20vh;
+  width: 9vw;
+}
+
+.styleFontTitle{
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  margin-bottom: -3%;
+  font-size: 5vmin;
+}
+
+
+.styleFont{
+  font-size: 3vmin;
+}
+
+.styleFont2{
+  display: flex;
+  justify-content: center;
+  font-size: 3vmin;
+  color:red;
+}
+
+
+.name{
+  float: left;
+  margin-top: 6%;
+  margin-left: 2%;
+  width: fit-content;
+}
+
+.point{
+  float: left;
+  margin-top: 6%;
+  margin-left: 10%;
+  width: fit-content;
+}
+
+/* .button{
+  float: left;
+  margin-left: 10%;
+  width: fit-content;
+} */
+
+.pos{
+  position: relative;
+  margin-left: 20%;
+}
+
+.mediumPos{
+  position: relative;
+  margin-left: 5%;
+}
+
+.posRight{
+  float: right;
+}
+
+.buttonDiv{
+  float: left;
+  bottom: 10%;
+  margin-left: 10%;
+}
+
+.button{
+  height: 50vmin;
+  width: 60vmin;
+  margin-bottom: 10%;
+  max-height: 50px;
+  max-width: 210px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.buttonG2{
+  margin-left: 40%;
+  height: 50vmin;
+  width: 60vmin;
+  max-height: 50px;
+  max-width: 210px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1{
+  background-color: #600606; 
+  color:white;
+  border: 2px solid #600606;
+}
+
+.button1:hover{
+  background-color:white;
+  color: black;
+}
+
+.button2{
+  background-color: #BA1313; 
+  color:white; 
+  border: 2px solid #BA1313;
+}
+
+.button2:hover{
+  background-color:white;
+  color: black;
+}
+
+.button3{
+  background-color: #F20C0C; 
+  color:white;
+  border: 2px solid #F20C0C; 
+}
+
+.button3:hover{
+  background-color:white;
+  color: black;
+}
+
+.input{
+  width: 20%;
+}
+
+
+
